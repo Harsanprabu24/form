@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body style="background-color: rgb(132, 214, 242)">
+    <div class="container justify-content-center" style="margin-top: 100px">
+      <div
+        class="row"
+        style="box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.444)"
+      >
+        <div class="col-lg-7 col-md-7 col-sm-12 col-12 p-0">
+          <img src="89045.jpg" class="img-fluid" style="height: 500px" />
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-12 col-12 bg-info">
+          <div class="form-floating mt-3">
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="enter name"
+            />
+            <label for="name">Name</label>
+          </div>
+          <div class="form-floating mt-3">
+            <input type="date" class="form-control" id="dd" placeholder="DOB" />
+            <label for="dd">DOB</label>
+          </div>
+
+          <div class="form-floating mt-3">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="enter mail"
+            />
+            <label for="email">E-mail</label>
+          </div>
+          <div class="form-floating mt-3">
+            <input
+              type="number"
+              class="form-control"
+              id="num"
+              placeholder="enter num"
+            />
+            <label for="num">Mobile num</label>
+          </div>
+
+          <select class="form-select mt-3">
+            <option>B.tech</option>
+            <option>B.E</option>
+            <option>B.Sc</option>
+            <option>M.Sc</option>
+            <option>MCA</option>
+            <option>BCA</option>
+          </select>
+
+          <div class="form-check mt-3">
+            <input type="checkbox" />
+            <label class="form-label">I agree with terms & conditions</label>
+          </div>
+
+          <button class="btn btn-danger form-control">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
